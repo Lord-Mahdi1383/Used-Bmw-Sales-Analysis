@@ -1,0 +1,100 @@
+01. The box plot shows a price distribution between $0 and $60900 meaning most cars are picked in this range
+    these are likely family cars or low milage cars
+02. The outlier cars are mostly performace models (M series) and some X-series models which are probably
+    newer cars with low milages
+03. The outlier cars are generally in good condition with an average of 4.4/5.0
+04. Outlier cars have an average of 7.5k miles which is relatively low ------> luxury cars like i8
+05. Car age and odometer reading have a posotive relationship ------> older cars tend to have higher milages
+06. Most cars accumulate over 200k miles within the first 5 years
+07. There's little to no increases in odometer reading after year 5
+08. There are some cars over 20 years old with extremely low milages (likely collector's editions or classics)
+09. There is a strong negetive relationship: as milage increases the selling price decreases
+10. Vehicles lose a significant portion of their value within the first 50k miles
+11. The price decline slows down after 50k miles
+12. Prices approach a floor around 150k miles
+13. The most expensive cars are i8s with extremely low milage which makes sense as they are
+    premium vehicles with limited production
+14. Both mmr and selling price show strong negative relationship with car age
+15. 0-2 year old cars show a rapid drop in value
+16. 2-4 year-old cars depreciate, but at a slower rate compared to new cars
+17. The value of cars older than 10 years stabilizes and doesn't drop significantly further
+18. The selling price mirrors the MMR valuation but with more variance
+19. The maximum selling price is usually lower than the maximum MMR estimate
+20. The price distribution has a peak at lower values, with a long tail of a few luxury cars with high prices
+21. Most cars have between 0-60k miles
+22. Most cars are between 2-5 years old
+23. The condition rating is peaked around 3.7-4.3
+24. The majority of sales are in the $20k-$40k range
+25. A long tail in the price distribution shows luxury vehicles with price > $75k
+26. Both luxury cars (>$75k) and cheaper cars (<$25k) are generally sold for less than their MMR-estimated value
+27. Based on price difference, MMR is generally a reliable predictor,
+    most cars are sold with 0 price difference but some cars are sold with $5k differnece
+28. Automatic transmissions dominate the market (~85%), which aligns with the prevalence of family cars like SUVs
+29. Manual transmisiosn are far less common with only 4%
+30. Sedan and suv body types are the most common, and wagons are the least common
+31. Since most of our vehicles are SUVs that confirm the automatic transmision,
+    which is best for a family car
+32. Black is the most common exterior color, followed equally by gray and white
+33. Colors like yellow, pink, turquoise and some other are the least common likely because they are
+    custom made from the factory for that particular buyer
+34. Black interior is the most common by far, with over 10k vehicles
+35. Interior colors like green, gold, purple, and blue are the least common, probably because they are
+    less versatile and don't match most ecterior colors
+36. Bmw i8 sold only 8 units but at a very high average price, confirming its status a luxury or collector car
+37. M6 and 6 series Gran Coupe sold almost 200 units combined at a similarly high average price
+38. Bmw X4 sold only 5 untis with a low average price, likely becuase competitors like the X3 and X5
+    series offer better value
+39. Automatic transmisions have a higher average price becuase they're a more expensive option
+40. Manual transmision are basically the budget build
+41. 3 series is top selling bmw model 8142 vehicle sold (~ 40%)
+42. Models like 320i and 323i have lower sales potentially do to being unreliable or
+    having lower values per dollar spent
+43. M series cars have lower total sales because they're more expensive
+44. Niche vehicles like 'Gran Coupes', 'Gran Turismo' or 'ActiveHybrid' have extremely
+    low sales volume which is expected for a specialized car
+45. The M3 was the best selling M-powered vehicle with nearly 300 sales
+46. The 3 series generated over $137M in revenue which is expected given its high sales volume
+47. Bmw X5 is the leading SUV in terms of revenue generating $88M
+48. The 5 series generated significantly more total revenue than the 2 best selling SUVs (X5 and X3) combined
+49. The 3 series and 5 series is dominating the market with its total sale and low price average
+    offering a combination of affordability and brand appeal
+50. X5 comes after 3 series and 5 series which makes it a good family car with its low price average
+51. The i8 has a very high average price but low revenue meaning very few were sold
+52. The reason M4 had really low sales (compared to other M-powered cars) was because of high average price
+53. Even though ActiveHybrid vehicles have relatively low average price, they still sold in low volume
+54. Most sales occur at night (1AM - 4AM)
+55. There are some sales during work hours (12PM - 2PM) likely during lunch breaks
+56. There are no sales after work hours (6PM)
+57. Over 90% of car sales happen in the AM half of the day, primarily at night
+58. Most sales happen in the middle of the week rather than on weekends.
+59. Most sales occur in the first two months of the year (Jan and Feb).
+60. Sales drop slightly in springs
+62. There are almost no sales in summer
+62. Sales start to pick up again at the end of the year (Dec)
+63. Odometer and car age are highly related (+0.81) which means older cars tend to have higher milages
+64. Year is highly related to mmr and selling price (+0.8) followed by condition and odometer
+65. Odometer has a better realtionship with mmr and selling price than condition, which means buyers prefer
+    to buy cars with lower milages rather than higher condition
+66. Features like color, interior color, transmission, and body type show little to no linear correlation
+    with other numerical features
+67. MMR and selling price are strongly positively correlated, almost linearly
+68. Both odometer and car age are negatively correlated with MMR and selling price
+69. Certain body types are associated with clusters of higher-priced cars
+70. The distribution of odometer readings is strongly right-skewed: many vehicles have low mileage,
+    with a long tail of vehicles extending to very high milages
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+CONCLUSION AND INSIGHT FOR A CAR SALES WEBSITE:
+
+1. Prioritize the Core Audience: The vast majority of our buyers are seeking value-oriented, family-friendly vehicles. Our website's homepage, search defaults, and promoted inventory should prominently feature 3 Series, 5 Series, and X5 models priced between $20k-$40k with automatic transmissions and under 60k miles. This is our volume engine.
+
+2. High-End Models Section: While fewer in number, buyers of high-end models (M Series, i8) are highly active. They shop for low-mileage (<10k), newer vehicles in excellent condition. We should create a dedicated, premium section of the website for these "Luxury & Performance" models. This enhances the experience for these high-value buyers without complicating the journey for our core audience.
+
+3. Optimize for When Customers Shop: Sales activity is not evenly distributed.
+
+    -Timing: Launch major marketing campaigns and ensure ad budgets are highest in Q1 (Jan-Feb) and Q4 (Dec) and
+     consider smaller push in springs
+
+    -Day & Time: Since most sales happen mid-week and very late at night (1-4 AM), ensure your website support and
+     live chat functions are available during these peak hours
