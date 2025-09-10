@@ -1,7 +1,13 @@
 # Overview    
 This repository extracts BMW data from a larger dataset, cleans it, and performs an analysis to find hidden relationships. These insights are essential for someone running a website for selling used cars, particularly BMWs, aiding in pricing, inventory selection, and sales strategy     
 
-## Extracting BMW data      
+# Data Source
+Analysis performed on a large-scale used car dataset from:
+```bash
+https://github.com/ErolGelbul/used_car_sales
+```
+
+## Extracting BMW Data      
 - used a try-except block for error handling
 - Processed the large dataset in chunks of 10,000 rows for memory efficiency        
 - while extracting we can use:    
@@ -25,7 +31,7 @@ This repository extracts BMW data from a larger dataset, cleans it, and performs
 - make a new column by subtracting 'year' from 'sale_year'    
 - calculating price difference by subtracting 'mmr' from 'selling_price'
 
-# Dataset Analysis And Plotting
+## Dataset Analysis And Plotting
 making 18 different plots to analyse and catch hidden relationships
 we used:
 - box plot to catch outliers in selling price
